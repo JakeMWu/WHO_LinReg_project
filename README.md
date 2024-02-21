@@ -1,5 +1,5 @@
 # WHO_LinReg_project
- This is a linear regression project on life expectancy based on WHO data.
+ This is a linear regression team project to predict life expectancy based on WHO data.
  
  This project contains two main files. 
  

@@ -54,7 +54,7 @@ def main():
             life_expectancy_predictor(st.session_state['model'], values)
 
 if __name__ == "__main__":
-    st.set_page_config(page_title=" title :)",
+    st.set_page_config(page_title="Life Expectancy :)",
                    page_icon=":skull:",
                    layout="centered")
     best_performing_model = {'columns': ['Adult Mortality', 'Infant Deaths', 'GDP'], 'params': [76.6453, -30.258006, -17.446125, 4.720947]}

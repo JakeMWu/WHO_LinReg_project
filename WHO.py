@@ -54,6 +54,9 @@ def main():
             life_expectancy_predictor(st.session_state['model'], values)
 
 if __name__ == "__main__":
+    st.set_page_config(page_title=" title :)",
+                   page_icon=":skull:",
+                   layout="centered")
     best_performing_model = {'columns': ['Adult Mortality', 'Infant Deaths', 'GDP'], 'params': [76.6453, -30.258006, -17.446125, 4.720947]}
     limited_model = {'columns': ['Adult Mortality', 'GDP'], 'params': [71.265829, -40.091971, 12.347190]}
     scaler = {'GDP': {'max': 11.629979, 'min': 4.997212}, 'Adult Mortality': {'max': 703.677, 'min': 49.384}, 'Infant Deaths': {'max': 135.6, 'min': 1.8}}
